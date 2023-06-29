@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <title>Right Square Properties</title>
+</head>
+<body>
+  <div id="menuToggler">
+    ≡
+  </div>
+  <nav id="menu">
+    <div class="logo">
+      <a href="home.html"><img src="images/logo.png" alt="Logo"></a>
+    </div>
+    <div class="navLinks">
+      <a href="home.html"><span class="fas fa-home"></span> Home</a>
+      <a href="about.html"><span class="fas fa-info-circle"></span> About</a>
+      <a href="search.html"><span class="fas fa-search"></span> Property Search</a>
+      <a href="contact.html"><span class="fas fa-envelope"></span> Contact Us</a>
+    </div>
+  </nav>
+  <div class="container">
+    <header id="header">
+      <h1>Search for a property</h1>
+    </header>
+    <main id="main">
+      <section class="searchTool">
+        <form id="propertySearch" action="#" method="get" name="propertySearch">
+          <div class="listingType">
+            <input type="radio" id="buy" name="listingType" value="buy"> <label for="buy">Buy</label> <input type="radio" id="rent" name="listingType" value="rent"> <label for="rent">Rent</label> <input type="radio" id="all" name="listingType" value="all"> <label for="all">All</label>
+          </div><br>
+          <label for="area">Search area:</label>
+          <div class="area">
+            <input type="text" id="area" class="area" name="area">
+          </div>
+          <div class="searchBar">
+            <div class="input-group">
+              <label for="propertyType">Property Type:</label> <select id="propertyType" name="propertyType">
+                <option value="">
+                  --Select--
+                </option>
+                <option value="house">
+                  House
+                </option>
+                <option value="apartment">
+                  Apartment
+                </option>
+                <option value="land">
+                  Land
+                </option>
+                <option value="commercial">
+                  Commercial Property
+                </option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="furnishedType">Furnished Type:</label> <select id="furnishedType" name="furnishedType">
+                <option value="">
+                  --Select--
+                </option>
+                <option value="furnished">
+                  Furnished
+                </option>
+                <option value="halfFurnished">
+                  Half furnished
+                </option>
+                <option value="unfurnished">
+                  Unfurnished
+                </option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="priceRange">Min Price:</label> <input type="range" id="minPriceRange" name="minPriceRange" min="0" max="10000" step="100" value="0"> <input type="number" id="minPrice" name="minPrice" min="0" max="10000" step="100" value="0"><br>
+              <label for="priceRange">Max Price:</label> <input type="range" id="maxPriceRange" name="maxPriceRange" min="0" max="10000" step="100" value="0"> <input type="number" id="maxPrice" name="maxPrice" min="0" max="10000" step="100" value="0">
+            </div>
+            <div class="input-group">
+              <label for="bedRange">Min Bedrooms:</label> <input type="range" id="minBedRange" name="minBedRange" min="0" max="10" step="1" value="0"> <input type="number" id="minBed" name="minBed" min="0" max="10" step="1" value="0"><br>
+              <label for="bedRange">Max Bedrooms:</label> <input type="range" id="maxBedRange" name="maxBedRange" min="0" max="10" step="1" value="0"> <input type="number" id="maxBed" name="maxBed" min="0" max="10" step="1" value="0">
+            </div>
+            <div class="input-group">
+              <label for="bedRange">Min Bathrooms:</label> <input type="range" id="minBathRange" name="minBathRange" min="0" max="10" step="1" value="0"> <input type="number" id="minBath" name="minBath" min="0" max="10" step="1" value="0"><br>
+              <label for="bathRange">Max Bathrooms:</label> <input type="range" id="maxBathRange" name="maxBathRange" min="0" max="10" step="1" value="0"> <input type="number" id="maxBath" name="maxBath" min="0" max="10" step="1" value="0">
+            </div>
+          </div>
+          <div class="button-container">
+            <button type="submit" value="submit">Search</button>
+          </div>
+        </form>
+      </section>
+      <section id="searchResults"></section>
+    </main>
+  </div>
+  <footer>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-snapchat-ghost"></i></a>
+      <a href="https://wa.me/+966540008484" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    </div>
+    <div class="footer-links">
+      <ul>
+        <li>
+          <a href="home.html">Home</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+        <li>
+          <a href="search.html">Ptoperty Search</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact us</a>
+        </li>
+        <li>
+          <a href="#">Privacy Policy</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-text">
+      <div class="footer-logo">
+        <a href="home.html"><img src="images/logo.png" alt="Logo"></a>
+      </div>
+      <p>© Right Square Properties 
+      <script>
+      document.write(new Date().getFullYear())
+      </script></p>
+    </div>
+  </footer>
+  <script src="scripts.js"></script>
+</body>
+</html>

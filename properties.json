@@ -1,0 +1,286 @@
+[{
+  "id": "1",
+  "listingType": "buy",
+  "address": {
+    "country": "UK",
+    "city": "London",
+    "firstAddressLine": "123 Main Street",
+    "secondAddressLine": "Apt 4B",
+    "postcode": "SW1A 2AA"
+  },
+  "propertyType": "house",
+  "beds": 3,
+  "baths": 2,
+  "furnishedType": "unfurnished",
+  "pictures": [
+    "images/properties/house.png"
+  ],
+  "price": 10000
+},
+{
+  "id": "2",
+  "address": {
+    "country": "UK",
+    "city": "London",
+    "firstAddressLine": "456 Main Street",
+    "secondAddressLine": "",
+    "postcode": "SW1A 2AA"
+  },
+  "price": 2000 ,
+  "listingType": "rent",
+  "pictures": [
+    "images/properties/flat.png"
+  ],
+  "beds": 2,
+  "baths": 1,
+  "furnishedType": "furnished",
+  "propertyType": "apartment"
+},
+{
+  "id": "3",
+  "address": {
+    "country": "UK",
+    "city": "London",
+    "firstAddressLine": "789 Elm Street",
+    "secondAddressLine": "",
+    "postcode": "SW1A 2AA"
+  },
+  "price": 8000,
+  "listingType": "rent",
+  "pictures": [
+    "images/properties/house.png"
+  ],
+  "beds": 4,
+  "baths": 3,
+  "furnishedType": "half furnished",
+  "propertyType": "house"
+},
+{
+  "id": "4",
+  "address": {
+    "country": "UK",
+    "city": "London",
+    "firstAddressLine": "10 Downing Street",
+    "secondAddressLine": "",
+    "postcode": "SW1A 2AA"
+  },
+  "price": 5000000,
+  "listingType": "buy",
+  "pictures": [
+    "images/properties/house.png"
+  ],
+  "beds": 6,
+  "baths": 4,
+  "furnishedType": "unfurnished",
+  "propertyType": "house"
+},
+{
+  "id": "5",
+  "address": {
+    "country": "UK",
+    "city": "London",
+    "firstAddressLine": "111 George Street",
+    "secondAddressLine": "",
+    "postcode": "SW1A 2AA"
+  },
+  "price": 3000,
+  "listingType": "rent",
+  "pictures": [
+    "images/properties/flat.png"
+  ],
+  "beds": 1,
+  "baths": 1,
+  "furnishedType": "furnished",
+  "propertyType": "apartment"
+},
+{
+  "id": "6",
+  "address": {
+    "country": "UK",
+    "city": "Manchester",
+    "firstAddressLine": "25 Oxford Road",
+    "secondAddressLine": "",
+    "postcode": "M1 7ED"
+  },
+  "price": 2200,
+  "listingType": "rent",
+  "pictures": [
+    "images/properties/flat.png"
+  ],
+  "beds": 2,
+  "baths": 2,
+  "furnishedType": "unfurnished",
+  "propertyType": "apartment"
+},
+{
+  "id": "7",
+  "address": {
+    "country": "UK",
+    "city": "Nottingham",
+    "firstAddressLine": "21 Nottingham Road",
+    "secondAddressLine": "",
+    "postcode": "NG7 3HQ"
+  },
+  "price": 280000,
+  "listingType": "buy",
+  "pictures": [
+    "images/properties/house.png"
+  ],
+  "beds": 4,
+  "baths": 2,
+  "furnishedType": "unfurnished",
+  "propertyType": "house"
+},
+{
+  "id": "8",
+  "address": {
+    "country": "UK",
+    "city": "Birmingham",
+    "firstAddressLine": "50 New Street",
+    "secondAddressLine": "",
+    "postcode": "B2 4DU"
+  },
+  "price": 350000,
+  "listingType": "buy",
+  "pictures": [
+    "images/properties/flat.png"
+  ],
+  "beds": 3,
+  "baths": 2,
+  "furnishedType": "half furnished",
+  "propertyType": "apartment"
+},
+{
+  "id": "9",
+  "address": {
+    "country": "UK",
+    "city": "Newcastle",
+    "firstAddressLine": "18 Grey Street",
+    "secondAddressLine": "",
+    "postcode": "NE1 6AD"
+  },
+  "price": 400000,
+  "listingType": "buy",
+  "pictures": [
+    "images/properties/house.png"
+  ],
+  "beds": 4,
+  "baths": 2,
+  "furnishedType": "unfurnished",
+  "propertyType": "house"
+},
+{
+  "id": "10",
+  "address": {
+    "country": "UK",
+    "city": "Leeds",
+    "firstAddressLine": "25 Park Lane",
+    "secondAddressLine": "",
+    "postcode": "LS3 1EL"
+  },
+  "price": 220000,
+  "listingType": "buy",
+  "pictures": [
+    "images/properties/flat.png"
+  ],
+  "beds": 2,
+  "baths": 1,
+  "furnishedType": "half furnished",
+  "propertyType": "apartment"
+},
+{
+  "id": "11",
+  "address": {
+    "country": "UK",
+    "city": "Leicester",
+    "firstAddressLine": "21 High Street",
+    "secondAddressLine": "",
+    "postcode": "LE1 4AN"
+  },
+  "price": 150000,
+  "listingType": "buy",
+  "pictures": [
+    "images/properties/flat.png"
+  ],
+  "beds": 2,
+  "baths": 1,
+  "furnishedType": "unfurnished",
+  "propertyType": "apartment"
+},
+{
+  "id": "12",
+  "address": {
+    "country": "UK",
+    "city": "Leicester",
+    "firstAddressLine": "42 Market Street",
+    "secondAddressLine": "",
+    "postcode": "LE1 6DP"
+  },
+  "price": 800,
+  "listingType": "rent",
+  "pictures": [
+    "images/properties/flat.png"
+  ],
+  "beds": 1,
+  "baths": 1,
+  "furnishedType": "half furnished",
+  "propertyType": "apartment"
+},
+{
+  "id": "13",
+  "address": {
+    "country": "UK",
+    "city": "Nottingham",
+    "firstAddressLine": "78 Sherwood Rise",
+    "secondAddressLine": "",
+    "postcode": "NG7 6JF"
+  },
+  "price": 200000,
+  "listingType": "buy",
+  "pictures": [
+    "images/properties/house.png"
+  ],
+  "beds": 3,
+  "baths": 2,
+  "furnishedType": "unfurnished",
+  "propertyType": "house"
+},
+{
+  "id": "14",
+  "address": {
+    "country": "UK",
+    "city": "Nottingham",
+    "firstAddressLine": "1 Castle Road",
+    "secondAddressLine": "",
+    "postcode": "NG1 6AA"
+  },
+  "price": 1000,
+  "listingType": "rent",
+  "pictures": [
+    "images/properties/flat.png"
+  ],
+  "beds": 2,
+  "baths": 1,
+  "furnishedType": "furnished",
+  "propertyType": "apartment"
+},
+{
+  "id": "15",
+  "address": {
+    "country": "UK",
+    "city": "Birmingham",
+    "firstAddressLine": "55 New Street",
+    "secondAddressLine": "",
+    "postcode": "B2 4DU"
+  },
+  "price": 500000,
+  "listingType": "buy",
+  "pictures": [
+    "images/properties/house.png"
+  ],
+  "beds": 4,
+  "baths": 3,
+  "furnishedType": "unfurnished",
+  "propertyType": "house"
+}
+]

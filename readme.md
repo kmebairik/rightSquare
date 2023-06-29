@@ -1,0 +1,1 @@
+Right Square Properties is a real estate website that provides a platform to search for properties available for buy or rent. The website is designed to provide users with a user-friendly experience that makes it easy to search and find the right property to suit their needs by using the search tool on the Property search page, beside three more pages; Home, About and Contact us.
